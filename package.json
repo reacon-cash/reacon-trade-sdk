@@ -1,7 +1,7 @@
 {
   "name": "@reacontrade/sdk",
   "license": "MIT",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "🛠 An SDK for building applications on top of Reacon Trade.",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
@@ -10,13 +10,12 @@
   ],
   "repository": "https://github.com/reacon-cash/reacon-trade-sdk.git",
   "keywords": [
-    "reacon-cash",
-    "ethereum"
+    "reacontrade",
+    "bsc"
   ],
   "module": "dist/sdk.esm.js",
   "scripts": {
     "lint": "tsdx lint src test",
-    "lint:fix": "tsdx lint src test --fix",
     "build": "tsdx build",
     "start": "tsdx watch",
     "test": "tsdx test",
